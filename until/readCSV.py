@@ -12,6 +12,7 @@ def readCSV(path):
     ddt_data = []
     for res in list(reader)[1:]:
         ddt_data.append(list(map(lambda x: int(x), res)))
+    f.close()
     return ddt_data
 
 
