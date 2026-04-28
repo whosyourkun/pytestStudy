@@ -12,6 +12,6 @@ if __name__ == '__main__':
         print('生成测试报告')
         os.system(f"allure generate -o ./reports -c ./temps")
     else:
-        print('未生成测试报告')
+        print('未生成测试报告 ')
     # if os.listdir('./temps'):
     #     print(os.listdir('./temps'))
