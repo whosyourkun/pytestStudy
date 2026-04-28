@@ -126,3 +126,5 @@ pytest有1400+个插件：https://docs.pytest.org/en/stable/reference/plugin_lis
      - @allure.story 故事 功能
      - @allure.title 标题 用例  
      **使用相同装饰器的用例，自动并入一组**
+
+### 6. web自动化
