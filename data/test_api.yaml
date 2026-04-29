@@ -1,0 +1,8 @@
+name: 打开百度
+steps:
+  - request:
+      method: GET
+      url: https://www.baidu.com
+
+  - response:
+      status_code: 200
